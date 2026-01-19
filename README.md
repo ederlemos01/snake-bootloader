@@ -11,7 +11,7 @@ This project is a **Bootloader Game**. It is designed to occupy exactly the firs
 
 ## How to Build and Run
 
-### Requirements **NASM** and **QEMU**.
+### Requirements: **NASM** and **QEMU**.
 
 ###  run:
 ```bash
