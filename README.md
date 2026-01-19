@@ -1,4 +1,4 @@
-# Rainbow-Snake-Bootloader Assembly x86 (Real Mode)
+# Snake-Bootloader Assembly x86 (Real Mode)
 
 <img width="1916" height="986" alt="Screenshot from 2026-01-19 00-10-15" src="https://github.com/user-attachments/assets/0f636c39-d51a-4ef9-9c93-796344d1282d" />
 
