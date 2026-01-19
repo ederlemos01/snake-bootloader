@@ -4,32 +4,15 @@
 
 ---
 
-## What is this?
-
-Este projeto é um **Bootloader Game**. Ele foi projetado para ocupar exatamente os primeiros 512 bytes de um disco (o Setor de Boot). Ao ligar o computador, o processador carrega este código antes de qualquer sistema operacional.
-
-###  Especificações Técnicas:
-- **Linguagem:** Assembly x86 (Real Mode).
-- **Tamanho:** 512 bytes (limite físico do MBR).
-- **Vídeo:** Modo VGA 13h (320x200, 256 cores).
-- **Efeito:** Arco-íris dinâmico que utiliza a paleta de cores da BIOS.
-- **Bare Metal:** Roda direto no hardware, sem Kernel ou drivers externos.
-
----
-
-### Controles (Keyboard):
-- **W**: Cima / Up
-- **A**: Esquerda / Left
-- **S**: Baixo / Down
-- **D**: Direita / Right
+This project is a **Bootloader Game**. It is designed to occupy exactly the first 512 bytes of a disk (the Boot Sector). When the computer is turned on, the processor loads this code before any operating system.
 
 ---
 
 ## How to Build and Run
 
-Você precisará do compilador **NASM** e do emulador **QEMU**.
+Download **NASM** and **QEMU**.
 
-### 1. Compilar (Assemble):
+###  run:
 ```bash
 nasm -f bin main.asm -o main.bin
 
